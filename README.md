@@ -1,2 +1,2 @@
 # Code-Louisville-project
-A movie spoiler website for animal lovers.
+A website for the sale of an inherited home
