@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="css/stylesheet1.css">
+<script src="contactform.js"> </script>
+</head>
+<!--End of Header -->
+<body onLoad="document.registration.userid.focus();">
+<!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+      <div id="notification">
+    </div>
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>    
+        <a class="navbar-brand text-muted" href="index.html"></a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+            <li><a href="About.html">About</a></li>  
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Films.html">Films</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- END NAVBAR -->
+
+	
+<h1>Contact Us</h1>
+<form name='registration' onSubmit="return Validation();" method="post" action="mailto:anymail.com">
+<ul>
+<li>
+  <label for="fname">First name:</label></li>
+<li><input type="text" name="fname" size="50" placeholder="i.e: John" /></li>
+<li><label for="lname">Last name:</label></li>
+<li><input type="text" name="lname" size="50" placeholder="i.e: Smith" /></li>
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" placeholder="i.e: Louisville" /></li>
+<li><input type="text" name="email" size="50" placeholder="i.e: John.Smith@mail.com" /></li>
+<li><label for="desc">Inquiry:</label></li>
+<li><textarea name="inquiry" id="inquiry"></textarea></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>
